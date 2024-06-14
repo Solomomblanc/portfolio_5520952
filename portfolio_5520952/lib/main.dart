@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:portfolio_5520952/Startseite.dart';
 import 'pages/about_page.dart'; 
 
 void main() {
@@ -10,9 +11,6 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Mein Portfolio',
-      home: Startseite(),
-    );
-  }
+      home: StartSeite();
 
-  Startseite() {}
 }
