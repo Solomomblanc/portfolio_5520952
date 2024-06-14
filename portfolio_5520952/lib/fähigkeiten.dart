@@ -14,7 +14,7 @@ class SkillsPage extends StatelessWidget {
             SizedBox(height: 16),
             Text('Programmiersprachen:'),
             Text('- Dart & Flutter'),
-            Text('- Python'),
+            Text('- english'),
             // Weitere Fähigkeiten
           ],
         ),
