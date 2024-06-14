@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:google_fonts/google_fonts.dart';
 
 void main() {
   runApp(MyApp());
@@ -12,7 +11,6 @@ class MyApp extends StatelessWidget {
       title: 'Portfolio App',
       theme: ThemeData(
         primarySwatch: Colors.blue,
-        textTheme: GoogleFonts.latoTextTheme(),
       ),
       home: MyPortfolio(),
     );
@@ -99,11 +97,11 @@ class AboutPage extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          Text('Über mich', style: Theme.of(context).textTheme.headline5),
+          Text('Über mich', style: Theme.of(context).textTheme.headline6),
           SizedBox(height: 16),
           Text(
             'Ich bin ein leidenschaftlicher Entwickler...',
-            style: Theme.of(context).textTheme.bodyText1,
+            style: Theme.of(context).textTheme.bodyText2,
           ),
           // Weitere Inhalte hinzufügen
         ],
@@ -140,7 +138,7 @@ class SkillsPage extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          Text('Fähigkeiten', style: Theme.of(context).textTheme.headline5),
+          Text('Fähigkeiten', style: Theme.of(context).textTheme.headline6),
           SizedBox(height: 16),
           Text('Programmiersprachen:'),
           Text('- Dart & Flutter'),
@@ -177,4 +175,5 @@ class ProjectsPage extends StatelessWidget {
     );
   }
 }
+
 
